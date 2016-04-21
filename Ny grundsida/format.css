@@ -31,15 +31,11 @@
 #sidepanel
 {
 
-    position: relative;
-    width: 30%; 
-    height: 84%;
-    /*margin-top: 5px;*/
-    /*background-color: #778CB3;*/
+    position: fixed;
+    float: left;
+    width: 200px; 
+    height: 80px;
     color: #FFFFFF; 
-    /*padding: 4px;*/
-    border-right: solid 1px black; 
-    background-size: 100% 100%;
 }
 
 #content
@@ -65,3 +61,13 @@
     clear: both;
     border-top: 2px solid #FFFFFF;
 }
+input[type=submit] {
+    width: 30%;
+    background-color: #aaa;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    }
