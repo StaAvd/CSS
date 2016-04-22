@@ -33,15 +33,17 @@
 
     position: fixed;
     float: left;
-    width: 200px; 
-    height: 80px;
-    color: #FFFFFF; 
+    width: 350px; 
+    color: #FFFFFF;
+    /*! background-color: #A0AFCB; */ 
 }
 
 #content
-{   overflow: auto;
-    width: 70%; 
-    height: 84%;
+{   position: absolute;
+    overflow: auto;
+    width: 800px; 
+    left:355px;
+    /*height: 84%;*/
     /*margin-top: 5px;*/
     /*background-color: #A0AFCB;*/
     float: right;
@@ -51,15 +53,17 @@
 
 #footer
 {
-    position: static;
+    position: relative;
+    top:800px;
     background-color: #F7CB33;
     padding: 12px; 
     width: 100%;
     color: #000000; 
     font-size: 90%;
     text-align: center; 
-    clear: both;
+    /*clear: both;*/
     border-top: 2px solid #FFFFFF;
+    
 }
 input[type=submit] {
     width: 30%;

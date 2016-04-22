@@ -1,0 +1,77 @@
+html
+{
+	background:url(img/back.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: auto auto;
+}		
+
+#menyfield
+{
+	color: #FFFFFF;
+	width: 100%;
+	height: 100px;
+	background-color: #62BF74;
+	position: relative;
+	top: 800px;
+	opacity: 0.5;/*How transparent the panel will be. 1 is not at all*/
+}
+#meny
+{
+	font-size: 22px;
+	padding-top: 35px;
+	width: 100%;
+	position: fixed;
+}
+/*unvisited link*/
+li a:link
+	{
+		color: white;
+	}
+
+/*visited link*/
+li a:visited
+{
+	color: white;
+}
+
+/* mouse over link */
+li a:hover
+	{
+		color: gray;
+	}
+
+/*selected link*/
+li a:active
+	{
+		color: gray;
+	}
+
+li
+	{
+		float: right;
+		position: fixed; 
+	}
+/*Every link inside  li but not outside of it*/	
+
+li a 
+	{
+		padding: 28px;
+		text-decoration: none;
+		font-weight: bolder;
+	}
+/*För att centera menyn*/
+#inner
+	{
+		padding-top:5px; 
+		width: 80%;
+		margin: 0 auto;
+	}
+body
+	{	
+		padding: 0px;
+		margin: 0px;
+		border:0px;
+	}
+	
